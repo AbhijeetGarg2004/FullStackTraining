@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* color: white;+ */
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-image: url(zomato.jpg);
+            background-size: cover;
+            height: 50vh;
+            width: 90vw;
+            min-width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #loc-img{
+            height: 20px;
+            width: 23px;
+        }
+        #city{
+            border: none;
+            font-size: small;
+        }
+        #search{
+            border: none;
+            font-size: small;
+            width:260px;
+        }
+        .form{
+            background-color: white;
+            border-radius: 5px;
+            height: 40px;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #danda{
+            padding-bottom: 2px;
+            font-weight: bolder;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <h1>ZOMATO</h1>
+            <h3>Discover the best food & drinks in Lucknow</h3>
+            <form action="" class="form">
+                <img src="location.png" alt="x" id="loc-img">
+                <select name="city" id="city">
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Lucknow">Lucknow</option>
+                </select>
+                <p id="danda">|</p>
+                <input type="text" placeholder="Search for the restaurant, cuisine or a dish" id="search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

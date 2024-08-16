@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(back.jpg);
+            background-size: cover;
+        }
+        .container{
+            margin:5px;
+            border: 2px solid gray;
+            min-width: 40vh;
+            min-height: fit-content;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center; 
+            flex-direction: column;
+            border-radius: 5px;
+            backdrop-filter: blur(7px);
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            font-size: x-large;
+            line-height: 70px;
+            color: rgba(255, 255, 255, 0.668);
+        }
+        h4{
+            font-size: large;
+        }
+        .inp{
+            margin: -5px 5px 10px 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inp-box{
+            min-width: 300px;
+            min-height: 50px;
+            padding-left: 20px;
+            border: 2px solid lightgray;
+            border-radius: 8px;
+            color: gray;
+        }
+
+        .login-btn{
+            background-color: black;
+            color: white;
+            min-width: 200px;
+            min-height: 50px;
+            border: 1px solid black;
+            border-radius: 20px;
+            font-size: large;
+            cursor: pointer;
+        }
+
+        .links{
+            margin: 20px 5px 70px 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.519);
+        }
+        a{
+            color: rgb(255, 255, 255);  
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Flodesk</h1>
+            <h4>Welcome back!</h4>
+        </div>
+        <div class="inp">
+            <form action="" class="inp">
+                <input type="email" placeholder="Enter your email" class="inp-box"><br>
+                <input type="password" name="" id="pass" class="inp-box" placeholder="Enter your password"><br>
+                <button class="login-btn">Login to Flodesk</button>
+            </form>
+        </div>
+        <div class="links">
+
+            <div>
+                Not a Member? <a href="#">Sign Up</a>
+            </div>
+            <br>
+            
+                <a href="#">Forgot your Password</a><br>
+            <div>
+                By continuing, you agree to Flodesk's <a href="#">term</a>
+            </div><br>
+            <div>
+                and acknowledge you've read our <a href="#">Privacy Policy</a>.
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(104, 226, 141);
+    min-height: 90vh;
+    min-width: 80%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid; */
+}
+
+.card {
+    /* border: 2px solid; */
+    margin-left: 50px;
+}
+
+.card h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.card p {
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card button {
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2px;
+    cursor: pointer;
+}

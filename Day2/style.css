@@ -1,0 +1,132 @@
+body{
+    margin:0;
+}
+
+.header-login{
+    display: flex;
+    justify-content: right;
+    background-color: rgba(76, 101, 165, 255);
+    width:100%;
+    height: 100px;
+}
+
+.email-login{
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.pass-login{
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login-btn{
+    margin-top: 27px;
+    margin-left: 5px;
+    min-width: 50px;
+}
+
+.form{
+    display: flex;
+    margin-right: 50px;
+}
+
+#sub{
+    background-color: rgb(22, 49, 140);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    height: 23px;
+}
+
+.nested_create-acc{
+    border: 2px solid black;
+    min-height: 70vh;
+}
+
+.create-acc{
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+    min-height: 70vh;
+}
+
+.heading-create{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.heading-small{
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.795);
+    margin-bottom: 10px;
+}
+
+.boxes-inp{
+    border: 1px solid  ;
+    min-height: 15vh;
+}
+
+.inp-box{
+    margin:3px 3px 3px 0px;
+    border: 1px solid rgba(56, 55, 55, 0.739);
+    padding: 2px;
+    border-radius: 3px;
+    min-height: 3vh;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+#fname{
+    width: 180px;
+}
+
+#sname{
+    width: 180px;
+}
+
+#em{
+    width: 376px;
+}
+
+#passname{
+    width: 376px;
+}
+
+
+.heading-dob{
+    margin: 5px 5px 5px 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#dob{
+    margin: 5px 5px 5px 0px;
+    height: 3vh;
+    width: 200px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.link{
+    margin: 5px;
+    width: 150px;
+    font-size: 12px;
+}
+
+.cont2{
+    display: flex;
+}
+
+.gen{
+    height: 5vh;
+    display: inline-block;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
